@@ -12,6 +12,10 @@ spring:
     hibernate:
       ddl-auto: validate
     generate-ddl: false
+  data:
+    redis:
+      host: localhost
+      port: 6380
 
 jwt:
 # chatserversecretaccesstokenchatserversecretaccesstokenchatserversecretaccesstoken
